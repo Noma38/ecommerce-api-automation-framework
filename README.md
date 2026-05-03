@@ -6,7 +6,7 @@ This project is a reusable API automation framework built using Java and Rest As
 
 It demonstrates end-to-end CRUD operations with data-driven testing and reporting.
 
----
+------------------------------------------------
 
 ## 🚀 Tech Stack
 
@@ -17,7 +17,7 @@ It demonstrates end-to-end CRUD operations with data-driven testing and reportin
 * Apache POI (Excel)
 * Extent Reports
 
----
+------------------------------------------------
 
 ## 🧱 Framework Design
 
@@ -25,7 +25,7 @@ It demonstrates end-to-end CRUD operations with data-driven testing and reportin
 * **test/java** → Test cases, DataProvider, Listeners
 * Separation of logic and test execution for better maintainability
 
----
+------------------------------------------------
 
 ## 🔄 Features
 
@@ -35,7 +35,7 @@ It demonstrates end-to-end CRUD operations with data-driven testing and reportin
 * Test execution using TestNG
 * HTML reporting using Extent Reports
 
----
+------------------------------------------------
 
 ## ▶️ How to Run
 
@@ -43,7 +43,7 @@ It demonstrates end-to-end CRUD operations with data-driven testing and reportin
 2. Import as Maven project in Eclipse
 3. Run TestNG test class
 
----
+------------------------------------------------
 
 ## 📊 Sample Report
 
