@@ -1,0 +1,27 @@
+package utils;
+
+import com.aventstack.extentreports.*;
+import com.aventstack.extentreports.reporter.ExtentSparkReporter;
+
+public class ExtentManager {
+
+    public static ExtentReports extent;
+
+    public static ExtentReports getReport() {
+
+        if (extent == null) {
+
+            String path = System.getProperty("user.dir") + "/reports/index.html";
+
+            ExtentSparkReporter reporter = new ExtentSparkReporter(path);
+
+            reporter.config().setReportName("API Test Report");
+            reporter.config().setDocumentTitle("Results");
+
+            extent = new ExtentReports();
+            extent.attachReporter(reporter);
+        }
+
+        return extent;
+    }
+}
